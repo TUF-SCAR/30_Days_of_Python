@@ -74,7 +74,7 @@ print("First slope == Second slope : ", slope == slope_point)
 
 print("\n", "-" * 25, "\n")
 
-print("Qudratic:- \n")
+print("Quadratic:- \n")
 
 # y = x^2 + 6x + 9
 a = 1
@@ -106,3 +106,57 @@ print(" 'on' found in 'python' and 'dragon' : ",
 
 print(" 'jargon' in 'I hope this course is not full of jargon' : ",
       'jargon' in 'I hope this course is not full of jargon')
+
+print("There is no 'on' in 'dragon' and 'python': ",
+      'on' not in 'dragon' and 'on' not in 'python')
+
+len_of_python = len('python')
+float_len = float(len_of_python)
+string_float = str(float_len)
+print("\tLength of 'python': ", len_of_python)
+print("\tin float: ", float_len)
+print("\tfloat in string: ", string_float)
+
+print("\n", "-" * 25, "\n")
+
+check_even = int(input("Enter a number to check: "))
+
+if check_even % 2 == 0:
+    print(f"{check_even} is even")
+else:
+    print(f"{check_even} is not even")
+
+print("7 // 3 == int(2.7): ", 7 // 3 == int(2.7))
+print("'10' == 10: ", '10' == 10)
+
+# we can't convert '9.8' into int because it is not a integer string
+# so we convert it to float then int
+print("int('9.8') == 10: ", int(float('9.8')) == 10)
+
+print("\n", "-" * 25, "\n")
+
+hours_of_work = int(input("Enter hours: "))
+rate_per_hour = float(input("Enter rate per hour: "))
+pay = hours_of_work * rate_per_hour
+print("Weekly pay: ", pay, '\n')
+
+years_lived = int(input("Enter number of years you have lived: "))
+days_lived = years_lived * 356
+hours_lived = days_lived * 24
+minutes_lived = hours_lived * 60
+seconds_lived = minutes_lived * 60
+print("You have lived:- ")
+print(f"{days_lived} days \t\tor")
+print(f"{hours_lived} hours \t\tor")
+print(f"{minutes_lived} minutes \tor")
+print(f"{seconds_lived} seconds")
+
+print("\n", "-" * 25, "\n")
+
+for i in range(1, 6):
+    a = 1 * i
+    b = a * i
+    c = b * i
+    print(f"{i}\t1\t{a}\t{b}\t{c}")
+
+print("\n", "-" * 25, "\n")
