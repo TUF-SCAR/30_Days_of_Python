@@ -1,64 +1,63 @@
 # My 30 Days of Python 🐍
 
-This repository tracks my progress through the **30 Days of Python** challenge.  
-Each folder (`day_X/`) contains my code, notes, and exercises for that day.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![GitHub last commit](https://img.shields.io/github/last-commit/TUF-SCAR/30_Days_of_Python)
+![License](https://img.shields.io/github/license/TUF-SCAR/30_Days_of_Python)
 
-> Day titles follow the original Asabeneh curriculum.
+This repository is my personal take on the **30 Days of Python** challenge.  
+I’m completing it at my own pace, and each `Day_X/` folder contains code samples and exercises.  
+Feel free to explore and use my progress as a reference.
+
+> Based on the original curriculum by **Asabeneh**:  
+> 👉 [Original 30 Days by Asabeneh](https://github.com/Asabeneh/30-Days-Of-Python)
 
 ---
 
 ## 📅 Table of Contents
 
-| Day | Topic                         | Folder             |
-| --- | ----------------------------- | ------------------ |
-| 01  | Introduction                  | [day_1](./day_1)   |
-| 02  | Variables, Built-in Functions | [day_2](./day_2)   |
-| 03  | Operators                     | [day_3](./day_3)   |
-| 04  | Strings                       | [day_4](./day_4)   |
-| 05  | Lists                         | [day_5](./day_5)   |
-| 06  | Tuples                        | [day_6](./day_6)   |
-| 07  | Sets                          | [day_7](./day_7)   |
-| 08  | Dictionaries                  | [day_8](./day_8)   |
-| 09  | Conditionals                  | [day_9](./day_9)   |
-| 10  | Loops                         | [day_10](./day_10) |
-| 11  | Functions                     | [day_11](./day_11) |
-| 12  | Modules                       | [day_12](./day_12) |
-| 13  | List Comprehension            | [day_13](./day_13) |
-| 14  | Higher Order Functions        | [day_14](./day_14) |
-| 15  | Python Type Errors            | [day_15](./day_15) |
-| 16  | Python Date time              | [day_16](./day_16) |
-| 17  | Exception Handling            | [day_17](./day_17) |
-| 18  | Regular Expressions           | [day_18](./day_18) |
-| 19  | File Handling                 | [day_19](./day_19) |
-| 20  | Python Package Manager        | [day_20](./day_20) |
-| 21  | Classes and Objects           | [day_21](./day_21) |
-| 22  | Web Scraping                  | [day_22](./day_22) |
-| 23  | Virtual Environment           | [day_23](./day_23) |
-| 24  | Statistics                    | [day_24](./day_24) |
-| 25  | Pandas                        | [day_25](./day_25) |
-| 26  | Python web                    | [day_26](./day_26) |
-| 27  | Python with MongoDB           | [day_27](./day_27) |
-| 28  | API                           | [day_28](./day_28) |
-| 29  | Building API                  | [day_29](./day_29) |
-| 30  | Conclusions                   | [day_30](./day_30) |
+| Day | Topic                         | Folder |
+| --- | ----------------------------- | ------ |
+| 01  | Introduction                  | [Day_1](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_1) |
+| 02  | Variables, Built-in Functions | [Day_2](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_2) |
+| 03  | Operators                     | [Day_3](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_3) |
+| 04  | Strings                       | [Day_4](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_4) |
+| 05  | Lists                         | [Day_5](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_5) |
+| 06  | Tuples                        | [Day_6](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_6) |
+| 07  | Sets                          | [Day_7](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_7) |
+| 08  | Dictionaries                  | [Day_8](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_8) |
+| 09  | Conditionals                  | [Day_9](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_9) |
+| 10  | Loops                         | [Day_10](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_10) |
+| 11  | Functions                     | [Day_11](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_11) |
+| 12  | Modules                       | [Day_12](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_12) |
+| 13  | List Comprehension            | [Day_13](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_13) |
+| 14  | Higher Order Functions        | [Day_14](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_14) |
+| 15  | Python Type Errors            | [Day_15](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_15) |
+| 16  | Python Date time              | [Day_16](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_16) |
+| 17  | Exception Handling            | [Day_17](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_17) |
+| 18  | Regular Expressions           | [Day_18](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_18) |
+| 19  | File Handling                 | [Day_19](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_19) |
+| 20  | Python Package Manager        | [Day_20](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_20) |
+| 21  | Classes and Objects           | [Day_21](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_21) |
+| 22  | Web Scraping                  | [Day_22](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_22) |
+| 23  | Virtual Environment           | [Day_23](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_23) |
+| 24  | Statistics                    | [Day_24](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_24) |
+| 25  | Pandas                        | [Day_25](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_25) |
+| 26  | Python web                    | [Day_26](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_26) |
+| 27  | Python with MongoDB           | [Day_27](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_27) |
+| 28  | API                           | [Day_28](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_28) |
+| 29  | Building API                  | [Day_29](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_29) |
+| 30  | Conclusions                   | [Day_30](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_30) |
 
 ---
 
 ## ✅ Progress
 
-- [x] Day 01 – Introduction
-- [x] Day 02 – Variables, Built-in Functions
-- [x] Day 03 – Operators
-- [x] Day 04 - Strings
-- [ ] Day 05 - Lists
-- [ ] …
+- [x] Day 01 – Introduction  
+- [x] Day 02 – Variables, Built-in Functions  
+- [x] Day 03 – Operators  
+- [x] Day 04 – Strings  
+- [ ] Day 05 – Lists  
+- [ ] …  
 - [ ] Day 30 – Conclusions
 
 ---
-
-## 🚀 How to Run
-
-```bash
-python day_1/helloworld.py
-python day_2/variables.py
-```
