@@ -15,17 +15,17 @@ Feel free to explore and use my progress as a reference.
 
 ## 📅 Table of Contents
 
-| Day | Topic                         | Folder |
-| --- | ----------------------------- | ------ |
-| 01  | Introduction                  | [Day_1](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_1) |
-| 02  | Variables, Built-in Functions | [Day_2](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_2) |
-| 03  | Operators                     | [Day_3](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_3) |
-| 04  | Strings                       | [Day_4](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_4) |
-| 05  | Lists                         | [Day_5](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_5) |
-| 06  | Tuples                        | [Day_6](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_6) |
-| 07  | Sets                          | [Day_7](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_7) |
-| 08  | Dictionaries                  | [Day_8](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_8) |
-| 09  | Conditionals                  | [Day_9](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_9) |
+| Day | Topic                         | Folder                                                                   |
+| --- | ----------------------------- | ------------------------------------------------------------------------ |
+| 01  | Introduction                  | [Day_1](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_1)   |
+| 02  | Variables, Built-in Functions | [Day_2](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_2)   |
+| 03  | Operators                     | [Day_3](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_3)   |
+| 04  | Strings                       | [Day_4](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_4)   |
+| 05  | Lists                         | [Day_5](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_5)   |
+| 06  | Tuples                        | [Day_6](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_6)   |
+| 07  | Sets                          | [Day_7](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_7)   |
+| 08  | Dictionaries                  | [Day_8](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_8)   |
+| 09  | Conditionals                  | [Day_9](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_9)   |
 | 10  | Loops                         | [Day_10](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_10) |
 | 11  | Functions                     | [Day_11](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_11) |
 | 12  | Modules                       | [Day_12](https://github.com/TUF-SCAR/30_Days_of_Python/tree/main/Day_12) |
@@ -52,12 +52,14 @@ Feel free to explore and use my progress as a reference.
 
 ## ✅ Progress
 
-- [x] Day 01 – Introduction  
-- [x] Day 02 – Variables, Built-in Functions  
-- [x] Day 03 – Operators  
-- [x] Day 04 – Strings  
-- [ ] Day 05 – Lists  
-- [ ] …  
+- [x] Day 01 – Introduction
+- [x] Day 02 – Variables, Built-in Functions
+- [x] Day 03 – Operators
+- [x] Day 04 – Strings
+- [x] Day 05 – Lists
+- [x] Day 06 – Tuples
+- [ ] Day 07 – Sets
+- [ ] …
 - [ ] Day 30 – Conclusions
 
 ---
