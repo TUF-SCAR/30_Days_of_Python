@@ -58,7 +58,8 @@ Feel free to explore and use my progress as a reference.
 - [x] Day 04 – Strings
 - [x] Day 05 – Lists
 - [x] Day 06 – Tuples
-- [ ] Day 07 – Sets
+- [x] Day 07 – Sets
+- [ ] Day 08 – Dictionaries
 - [ ] …
 - [ ] Day 30 – Conclusions
 
