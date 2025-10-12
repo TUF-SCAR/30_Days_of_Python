@@ -59,7 +59,9 @@ Feel free to explore and use my progress as a reference.
 - [x] Day 05 – Lists
 - [x] Day 06 – Tuples
 - [x] Day 07 – Sets
-- [ ] Day 08 – Dictionaries
+- [x] Day 08 – Dictionaries
+- [x] Day 09 - Conditionals
+- [ ] Day 10 - Loops
 - [ ] …
 - [ ] Day 30 – Conclusions
 
