@@ -31,7 +31,7 @@ def check_season(month):
     winter = {'december', 'dec', 'january', 'jan', 'february', 'feb'}
     spring = {'march', 'mar', 'april', 'apr', 'may'}
     summer = {'june', 'jun', 'july', 'jul', 'august', 'aug'}
-    month.lower()
+    month = month.lower()
 
     if month in autumn:
         return "Current Season: Autumn"
@@ -47,19 +47,25 @@ def check_season(month):
 
 def calculate_slope():
     print("Enter the points on the line:-")
-    x1 = int(input("x1 : "))
-    x2 = int(input("x2 : "))
-    y1 = int(input("y1 : "))
-    y2 = int(input("y2 : "))
-    m = (y2 - y1) / (x2 - x1)
-    print("Slope : ", m)
+    x1 = float(input("x1 : "))
+    x2 = float(input("x2 : "))
+    y1 = float(input("y1 : "))
+    y2 = float(input("y2 : "))
+    if x2 == x1:
+        print("Slope is undefined (vertical line)")
+    else:
+        m = (y2 - y1) / (x2 - x1)
+        print("Slope :", m)
 
 
 def solve_quadratic_eqn():
     print("Enter the value to solve quadratic equation:-")
-    a = int(input("a : "))
-    b = int(input("b : "))
-    c = int(input("c : "))
+    a = float(input("a : "))
+    b = float(input("b : "))
+    c = float(input("c : "))
+    if a == 0:
+        print("This is not a quadratic equation.")
+        return
     d = (b * b) - (4 * a * c)
     if d > 0:
         x1 = (-b + sqrt(d)) / (2 * a)
@@ -101,7 +107,10 @@ def add_item(in_list, item):
 
 
 def remove_item(in_list, item):
-    in_list.remove(item)
+    if item in in_list:
+        in_list.remove(item)
+    else:
+        print("Item not in list")
     return in_list
 
 
@@ -153,6 +162,8 @@ def is_empty(item):
 
 
 def calculate_mean(num):
+    if not num:
+        return "no data"
     total = sum(num)
     count = len(num)
     mean = total / count
@@ -160,18 +171,21 @@ def calculate_mean(num):
 
 
 def calculate_median(num):
-    num.sort()
-    n = len(num)
+    if not num:
+        return "no data"
+    sorted_nums = sorted(num)
+    n = len(sorted_nums)
     mid = n // 2
-
     if n % 2 == 0:
-        median = (num[mid - 1] + num[mid]) / 2
+        median = (sorted_nums[mid - 1] + sorted_nums[mid]) / 2
     else:
-        median = num[mid]
+        median = sorted_nums[mid]
     return median
 
 
 def calculate_mode(num):
+    if not num:
+        return "no data"
     frequency = {}
     for n in num:
         frequency[n] = frequency.get(n, 0) + 1
@@ -181,18 +195,28 @@ def calculate_mode(num):
 
 
 def calculate_range(num):
+    if not num:
+        return "no data"
     return max(num) - min(num)
 
 
 def calculate_variance(num):
+    if not num:
+        return "no data"
     mean = calculate_mean(num)
+    if isinstance(mean, str):
+        return "no data"
     squared_diff = [(x - mean) ** 2 for x in num]
     variance = sum(squared_diff) / len(num)
     return variance
 
 
 def calculate_std(num):
+    if not num:
+        return "no data"
     variance = calculate_variance(num)
+    if isinstance(variance, str):
+        return "no data"
     std = sqrt(variance)
     return std
 
@@ -337,32 +361,38 @@ if __name__ == "__main__":
 
     print("Calculating mean:-")
     print("Enter numbers for mean (space-separated):")
-    nums = [float(x) for x in input().split()]
+    nums = input().split()
+    nums = [float(x) for x in nums] if nums else []
     print("Mean:", calculate_mean(nums), '\n')
 
     print("Calculating median:-")
     print("Enter numbers for median (space-separated):")
-    nums = [float(x) for x in input().split()]
+    nums = input().split()
+    nums = [float(x) for x in nums] if nums else []
     print("Median:", calculate_median(nums), '\n')
 
     print("Calculating mode:-")
     print("Enter numbers for mode (space-separated):")
-    nums = [float(x) for x in input().split()]
+    nums = input().split()
+    nums = [float(x) for x in nums] if nums else []
     print("Mode:", calculate_mode(nums), '\n')
 
     print("Calculating range:-")
     print("Enter numbers for range (space-separated):")
-    nums = [float(x) for x in input().split()]
+    nums = input().split()
+    nums = [float(x) for x in nums] if nums else []
     print("Range:", calculate_range(nums), '\n')
 
     print("Calculating variance:-")
     print("Enter numbers for variance (space-separated):")
-    nums = [float(x) for x in input().split()]
+    nums = input().split()
+    nums = [float(x) for x in nums] if nums else []
     print("Variance:", calculate_variance(nums), '\n')
 
     print("Calculating standard deviation:-")
     print("Enter numbers for standard deviation (space-separated):")
-    nums = [float(x) for x in input().split()]
+    nums = input().split()
+    nums = [float(x) for x in nums] if nums else []
     print("Standard Deviation:", calculate_std(nums), '\n')
 
     print("\n", "-" * 25, "\n")

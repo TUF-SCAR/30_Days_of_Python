@@ -82,7 +82,7 @@ winter = {'december', 'dec', 'january', 'jan', 'february', 'feb'}
 spring = {'march', 'mar', 'april', 'apr', 'may'}
 summer = {'june', 'jun', 'july', 'jul', 'august', 'aug'}
 month = input("Enter current month: ")
-month.lower()
+month = month.lower()
 
 if month in autumn:
     print("Current Season: Autumn")
@@ -122,7 +122,7 @@ person = {
 }
 
 skills = person['skills']
-middle_index = len(skills) / 2
+middle_index = len(skills) // 2
 married = person['is_married']
 country = person['country']
 
@@ -134,17 +134,14 @@ if 'skills' in person:
     if 'Python' in skills:
         print(f"{person['first_name']} has Python skill")
     else:
-        print(f"{person['first_name']} does not have Pyton skill")
+        print(f"{person['first_name']} does not have Python skill")
 
-    if ['JavaScript', 'React'] in skills:
+    if 'JavaScript' in skills and 'React' in skills:
         print("He is a front end developer")
-
-    elif ['Node', 'Python', 'MongoDB']:
+    elif 'Node' in skills and 'Python' in skills and 'MongoDB' in skills:
         print("He is a backend developer")
-
-    elif ['React', 'Node', 'MongoDB']:
+    elif 'React' in skills and 'Node' in skills and 'MongoDB' in skills:
         print("He is a fullstack developer")
-
     else:
         print("Unknown Title")
 
