@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Google Drive
+.tmp.driveupload/
+*.tmp
+*.log
+
 # C extensions
 *.so
 
