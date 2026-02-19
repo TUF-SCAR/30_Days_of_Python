@@ -64,7 +64,9 @@ Feel free to explore and use my progress as a reference.
 - [x] Day 10 - Loops
 - [x] Day 11 - Functions
 - [x] Day 12 - Modules
-- [ ] Day 13 - List Comprehension
+- [x] Day 13 - List Comprehension
+- [x] Day 14 - Higher Order Functions
+- [ ] Day 15 - Python Type Errors
 - [ ] …
 - [ ] Day 30 – Conclusions
 
